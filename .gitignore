@@ -1,0 +1,15 @@
+# Salidas de compilación (dist/ trae el .exe, la config local y la carpeta motor con scrcpy+adb descargados)
+dist/
+obj/
+*.exe
+*.o
+*.log
+# Config local de Claude Code
+.claude/
+# Python
+__pycache__/
+*.py[cod]
+# Secretos
+.env
+.env.*
+*.pem

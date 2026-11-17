@@ -1,0 +1,28 @@
+#include <winres.h>
+
+1 ICON "rtxjuegos.ico"
+1 RT_MANIFEST "rtxjuegos.manifest"
+
+VS_VERSION_INFO VERSIONINFO
+FILEVERSION     1,1,0,0
+PRODUCTVERSION  1,1,0,0
+FILEOS          VOS_NT_WINDOWS32
+FILETYPE        VFT_APP
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "0c0a04b0"
+        BEGIN
+            VALUE "FileDescription",  "RTXJuegos - pantalla y sonido del celular en la PC"
+            VALUE "FileVersion",      "1.1.0"
+            VALUE "InternalName",     "rtxjuegos"
+            VALUE "OriginalFilename", "rtxjuegos.exe"
+            VALUE "ProductName",      "RTXJuegos"
+            VALUE "ProductVersion",   "1.1.0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x0c0a, 1200
+    END
+END
